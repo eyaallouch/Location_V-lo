@@ -51,7 +51,7 @@ export const routes = [
         name: "viewvelos",
         path: "/ViewVelos",
         component: ViewVelos,
-        meta:{isAuth:true}
+     //   meta:{isAuth:true}
     },
     {
         name: "viewModeles",
