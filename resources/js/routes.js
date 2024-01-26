@@ -2,7 +2,7 @@
 import Menu from "./components/Menu.vue";
 import MenuUser from "./components/MenuUser.vue";
 import Accueil from "./components/accueil.vue";
-import ViewVelos from "./components/Velos/Viewvelos.vue";
+//import ViewVelos from "./components/Velos/Viewvelos.vue";
 import ViewModeles from "./components/Velos/ViewModeles.vue";
 import AddVelosModal from "./components/Velos/AddVelosModal.vue";
 import AddModelesModal from "./components/Velos/AddModelesModal.vue";
@@ -47,12 +47,12 @@ export const routes = [
         path: "/AddVelosModal",
         component: AddVelosModal,
     },
-    {
-        name: "viewvelos",
-        path: "/ViewVelos",
-        component: ViewVelos,
-     //   meta:{isAuth:true}
-    },
+    // {
+    //     name: "viewvelos",
+    //     path: "/ViewVelos",
+    //     component: ViewVelos,
+    //  //   meta:{isAuth:true}
+    // },
     {
         name: "viewModeles",
         path: "/ViewModeles",
