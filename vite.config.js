@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue'
 export default defineConfig({
-    base: "/projet1/",
+    base: "/Location_V-lo/",
     plugins: [
         vue(),
         laravel({
